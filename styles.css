@@ -217,7 +217,7 @@ video {
   font-size: 2rem;
   line-height: 2rem;
 }
-.about-image img {
+.about-image .img {
   height: 100%;
   object-fit: cover;
 
@@ -299,6 +299,7 @@ video {
 .about-text p {
   font-size: 1.1rem;
   line-height: 1.5rem;
+
 }
 }
   .footer-nav {
@@ -343,7 +344,9 @@ video {
 .about-text h1 {
   font-size: 4rem;
   line-height: 4rem;
+  
 }
+
 
 .about-text p {
   font-size: 1.5rem;

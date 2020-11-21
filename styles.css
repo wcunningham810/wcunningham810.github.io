@@ -5,7 +5,7 @@ html {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
-  background-color: black;
+  background-color: white;
 }
 
 body {
@@ -35,7 +35,7 @@ video {
   align-items: center;
   line-height: 1rem;
   overflow: hidden;
-  background-color: white;
+  background-color: rgb(46, 139, 116);
 }
 
 .logo,
@@ -73,7 +73,7 @@ video {
   text-decoration: none;
   letter-spacing: 0.2rem;
   padding: 0.8rem;
-  color: black;
+  color:white;
 }
 
 .logo a {
@@ -89,13 +89,13 @@ video {
 }
 
 .nav-menu a:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(12, 93, 99);
 }
 
 /* hero header navbar changes */
 
 .hero-nav {
-  background:  rgb(46, 139, 116);
+  background:  rgb(0, 117, 106);
   grid-column: 1/-1;
   grid-row: 1/-1;
   align-content: top;
@@ -137,7 +137,7 @@ video {
 
 .hero-image-box::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.35);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -215,8 +215,8 @@ video {
 
 }
 .about-text h1 {
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 .about-image .img {
   height: 100%;
@@ -227,10 +227,11 @@ video {
 .about-social {
   display: flex;
   justify-content: start;
+
 }
 
 .about-social a {
-  color: black;
+  color:  rgb(12, 93, 99);
   padding: 0 1 rem;
 
 }
@@ -248,13 +249,19 @@ video {
 }
 
 .footer-social a {
-  color: black;
+  color: rgb(12, 93, 99);
   padding: 0 1rem;
 }
 
 .footer-copyright {
   text-align: center;
   padding-bottom: 6rem;
+  color:  rgb(12, 93, 99);
+}
+
+.text-box {
+  font-size: 1.5rem;
+ 
 }
 
 /*add media queries*/

@@ -35,7 +35,7 @@ video {
   align-items: center;
   line-height: 1rem;
   overflow: hidden;
-  background-color: rgb(46, 139, 116);
+  background-color: rgb(62, 151, 136);
 }
 
 .logo,
@@ -84,18 +84,18 @@ video {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: rgba(0,0,0,0);
   transition: all ease 0.1s;
 }
 
 .nav-menu a:hover {
-  border-bottom: 1px solid rgb(12, 93, 99);
+  border-bottom: 1px solid white;
 }
 
 /* hero header navbar changes */
 
 .hero-nav {
-  background:  rgb(0, 117, 106);
+  background:  rgb(62, 151, 136);
   grid-column: 1/-1;
   grid-row: 1/-1;
   align-content: top;
@@ -151,13 +151,7 @@ video {
   height: 100%;
   object-fit: cover;
 }
-.hero-video {
-  background-color: black;
-  background-image: url("../img/ocean.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 
 .hero-text-box {
   grid-row: 1/-1;
@@ -203,7 +197,7 @@ video {
 }
 /*about pags css*/
 .about-page {
-  padding: 2rem 1rem 10rem 1 rem;
+  padding: 2rem 1rem 10rem 1rem;
   display: grid;
   grid-template-columns: 1fr;
   height: 100%;
@@ -218,7 +212,7 @@ video {
   font-size: 1rem;
   line-height: 1rem;
 }
-.about-image .img {
+.about-image img {
   height: 100%;
   object-fit: cover;
 
@@ -231,8 +225,8 @@ video {
 }
 
 .about-social a {
-  color:  rgb(12, 93, 99);
-  padding: 0 1 rem;
+  color:  rgb(14, 110, 117);
+  padding: 0 1rem 1rem 1rem;
 
 }
 
@@ -249,14 +243,14 @@ video {
 }
 
 .footer-social a {
-  color: rgb(12, 93, 99);
+  color:  rgb(14, 110, 117);
   padding: 0 1rem;
 }
 
 .footer-copyright {
   text-align: center;
   padding-bottom: 6rem;
-  color:  rgb(12, 93, 99);
+  color:  rgb(14, 110, 117);
 }
 
 .text-box {
@@ -301,12 +295,12 @@ video {
   grid-gap: 1rem;
 }
 .about-text h1 {
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .about-text p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
 
 }
@@ -360,8 +354,8 @@ video {
   font-size: 3rem;
   line-height: 3rem;
 }
-.shop-page .textbox {
-  max-width: 80ch;
+.shop-page .text-box {
+  max-width: 70ch;
   margin: 0 auto;
 }
 .shop-box {
@@ -440,8 +434,8 @@ height: 2749px; /*12 items tall*/
     width: 100%;
   }
 .about-text h1 {
-  font-size: 4rem;
-  line-height: 4rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
   
 }
 
